@@ -12,7 +12,7 @@ public class RobotSpiral {
 	public static void main(String[] args) {
 		
 		// Create a new Robot
-		
+		Robot bob = new Robot();
 		// Set your robot's pen down 
 		
 		// SPEED. Set the robot to go at max speed (100)
