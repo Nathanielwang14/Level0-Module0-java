@@ -1,3 +1,0 @@
-language = "bash"
-run = "bash robotSquare.sh"
-# run = "bash robotSpiral.sh"
