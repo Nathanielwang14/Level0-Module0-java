@@ -3,7 +3,7 @@ void setup() {
   
 // 1. Set the size of the sketch. Make it 600 pixels square. 
   
-
+size(600,600);
 }
 
 void draw() {

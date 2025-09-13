@@ -26,6 +26,9 @@
 fill(#000000);
 rect(168,180, 175,30);
 rect(198,70, 110,110);
+ ellipse(250,320, 20,20);
+ ellipse(250,370, 20,20);
+ ellipse(250,430, 20,20);
 
 
 //    Like the ellipse, the fist 2 numbers specify where to draw it, the other two are its size.
