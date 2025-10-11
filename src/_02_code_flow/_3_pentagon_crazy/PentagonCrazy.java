@@ -18,11 +18,17 @@ public class PentagonCrazy {
 		//  SPEED. Make the robot go at maximum speed (100)
 		rob.setSpeed(67);
 		//  COLOR. Set the pen to a color that you like for the shape
-		rob.setPenColor(255);
+		rob.setPenColor(255, 0, 0);
 		//  NUMBER OF SIDES. Make an int variable for the number of sides the shape will have.
 		//  				(Hint: its called PentagonCrazy)
-		int count = 5;
-		while(count == 5);
+		int count = 0;
+		while(count<10) {
+			rob.setRandomPenColor();
+			rob.move(5*count);
+			rob.turn(360/5);
+			count++;
+			rob.setPenWidth(count);
+		}
 		
 		//  TURN ANGLE. Make another int variable for the angle the robot must turn. 
 		//  			Hint: Divide 360 by the number of sides the shape has to get the angle.
