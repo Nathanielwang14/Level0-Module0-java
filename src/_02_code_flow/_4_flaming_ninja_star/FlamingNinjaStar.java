@@ -18,25 +18,31 @@ public class FlamingNinjaStar {
 		//  COUNT. Make another int variable to count how many times the loop has repeated
 		//         Set its start value to zero.
 		int count = 0;
-		while(count == 5);
+		while(count<25) {
 	       //  LOOP. Start a while loop to repeat all of the code below ONE time (we will change this later)
-		
+	
 			   // TURN RIGHT     Turn the robot 1/8 of a circle (hint: 360 degrees will turn a full circle)
 		rob.turn(45);
 			   // MOVE           Move the robot 64 pixels
-		rob.move(60);
+		rob.move(64);
 			   // TURN LEFT      Turn the robot 40 degrees to the LEFT. (Negative numbers will turn the robot counter-clockwise.)
 		rob.turn(-40);
 			   // DRAW FLAME     Move the robot the distance in the variable flameSize
-		rob.move(130);
-				//               Turn the robot 170 degrees
+		rob.setPenColor(Color.orange);
+		rob.move(flameSize); 
+				//  Turn the robot 170 degrees
+
 		rob.turn(170);
-				//               Move the robot the distance in the variable flameSize (again)
-		rob.turn(130);
+				//         Move the robot the distance in the variable flameSize (again)
+		
+		rob.move(flameSize);
 			   // TURN RIGHT     Turn the robot 64 degrees to the right
 		rob.turn(64);
-				// MOVE         Move the robot the distance in the variable baseSize
-		
+				// MOVE Move the robot the distance in the variable baseSize
+		rob.setPenColor(Color.black);
+		rob.move(baseSize);
+		count +=1;
+		}
 				//  INCREASE COUNT. Increase the count by 1
 		
 		//  End the while loop here
