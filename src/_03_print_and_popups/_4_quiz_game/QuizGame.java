@@ -8,9 +8,9 @@ public class QuizGame {
 		// Create a variable to hold the user's score. Set it equal to zero. 
 		int x = 0;
 		// ASK A QUESTION AND CHECK THE ANSWER
-		String answer = JOptionPane.showInputDialog("What is color is the color red");
+		String answer = JOptionPane.showInputDialog("What color is the color red");
 				// 2.  Ask the user a question 
-				JOptionPane.showInputDialog("What is color is the color red");
+				
 				// 3.  Use an if statement to check if their answer is correct
 				if (answer.equals("red")) {
 					x += 1;
@@ -23,7 +23,7 @@ public class QuizGame {
 		// MAKE MORE QUESTIONS. Ask more questions by repeating the above 
 				// Option: Subtract a point from their score for a wrong answer
 		
-		
+		JOptionPane.showMessageDialog(null, x);
 		// After all the questions have been asked, tell the user their final score 
 		
 	}
