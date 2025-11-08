@@ -1,5 +1,6 @@
 package _04_amazing_games._1_scary_maze;
 
+import java.awt.Color;
 import java.awt.Dimension;
 
 import java.awt.Graphics;
@@ -43,7 +44,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		//3. Run the program. Do you see your maze? Don't continue until you do.
-		
+		run();
 		
 		// Leave this code here! It will allow the program to know when the mouse moves. 
 		addMouseMotionListener(this);
@@ -57,7 +58,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		int mouseColor = maze.getRGB(mouseX, mouseY);	
 		
 		//4. Print the mouseColor variable (Hint: use syso)
-		
+		System.out.println(Color.red);
 		//5.  Run your program and move your mouse over the START COLOR. A number will be printed to the console
 		
 		
@@ -73,7 +74,7 @@ public class ScaryMaze extends JPanel implements Runnable, MouseMotionListener {
 		
 		
 		//7. Make a new int variable for the background color of the maze
-
+		getBackground(Color.green);
 		
 		//8. Run the program and move the mouse over the BACKGROUND COLOR. 
 		//   Use the number that is printed to the console to set the background color variable 
