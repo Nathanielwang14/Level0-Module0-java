@@ -15,13 +15,28 @@ public class QuizGame {
 				if (answer.equals("red")) {
 					x += 1;
 				}
-				else {
-					x += 0;
-				}
+			
 				// 4.  if the user's answer was correct, add one to their score 
 		
 		// MAKE MORE QUESTIONS. Ask more questions by repeating the above 
 				// Option: Subtract a point from their score for a wrong answer
+		String answer1 = JOptionPane.showInputDialog("What color is the color blue");
+			
+			if (answer1.equals("blue")) {
+				x += 1;
+			}
+		
+	String answer2 = JOptionPane.showInputDialog("What is 1+1");
+			
+			if (answer2.equals("2")) {
+				x += 1;
+			}
+			
+	String answer3 = JOptionPane.showInputDialog("Simplify x^2 + 6x + 9");
+			
+			if (answer3.equals("(x+3)^2")) {
+				x += 1;
+			}
 		
 		JOptionPane.showMessageDialog(null, x);
 		// After all the questions have been asked, tell the user their final score 
