@@ -20,7 +20,7 @@ public class MadlibsOfTheAmazon {
 		String place = JOptionPane.showInputDialog("Enter a place");
 		// The story below has has been written as a group of Strings joined together by + signs.
 		// The story contains place holders, indicated by [** **] which you need to replace with
-		// the values entered by the player.
+		// the values entered by the player.eeeeeee
 		// Hint:  You will need to add more + signs to join the variables to the other parts of the story.
 		
 		JOptionPane.showMessageDialog(null, "Piranhas are more "+ adjective +" during the day, so cross the river at\n"  +
