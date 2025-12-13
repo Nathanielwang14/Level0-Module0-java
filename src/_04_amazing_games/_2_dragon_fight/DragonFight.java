@@ -82,7 +82,7 @@ public class DragonFight {
 				// 10. If the dragon's health is less than or equal to 0, the game is over,
 				//     call the dragonLost() method
 			if (dragonHealth <= 0) {
-				JOptionPane.showMessageDialog(null, "dragon lost L dragonn");
+				JOptionPane.showMessageDialog(null, "dragon lost L dragon");
 				dragonLost();
 			}
 			
